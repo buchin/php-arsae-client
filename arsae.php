@@ -1,11 +1,6 @@
 <?php
-use Buchin\SearchTerm\SearchTerm;
 
-if(!isset(ARSAE_SERVER)){
-	define('ARSAE_SERVER', 'http://www.wordpress.test');
-}
-
-function arsae()
+function arsae($server = 'http://kerenbgt.com')
 {
 	if(SearchTerm::isCameFromSearchEngine()){
 		$ref = SearchTerm::setReferer(null);
@@ -21,7 +16,7 @@ function arsae()
 			'arsae_ref' => urlencode($ref)
 		];
 
-		header('Location: ' . ARSAE_SERVER . '?' . http_build_query($path)); 
+		header('Location: ' . $server . '?' . http_build_query($path)); 
 		die;
 	}
 }
