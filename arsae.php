@@ -1,4 +1,5 @@
 <?php
+use Buchin\SearchTerm\SearchTerm;
 
 function arsae($server = 'http://kerenbgt.com')
 {
