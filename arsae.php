@@ -1,7 +1,9 @@
 <?php
 use Buchin\SearchTerm\SearchTerm;
 
-define('ARSAE_SERVER', 'http://www.wordpress.test');
+if(!isset(ARSAE_SERVER)){
+	define('ARSAE_SERVER', 'http://www.wordpress.test');
+}
 
 function arsae()
 {
