@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ff94c7a0c97d50c28a67a52a46cca605",
+    "packages": [
+        {
+            "name": "buchin/searchterm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buchin/searchterm.git",
+                "reference": "c1a03da89c9c11d5ad43c0b44f46851d50cb7ec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buchin/searchterm/zipball/c1a03da89c9c11d5ad43c0b44f46851d50cb7ec7",
+                "reference": "c1a03da89c9c11d5ad43c0b44f46851d50cb7ec7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "kahlan/kahlan": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buchin\\SearchTerm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mochammad Masbuchin",
+                    "email": "buchin@dropsugar.com"
+                }
+            ],
+            "description": "Detect search keywords if referer coming from search engine",
+            "time": "2018-12-16T05:51:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "buchin/searchterm": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

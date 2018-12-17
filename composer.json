@@ -1,0 +1,19 @@
+{
+    "name": "buchin/php-arsae-client",
+    "description": "ARSAE for PHP Sites",
+    "type": "library",
+    "require": {
+        "buchin/searchterm": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": ["arsae.php"]
+    }
+}
